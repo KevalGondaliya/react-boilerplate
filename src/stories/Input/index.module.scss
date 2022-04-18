@@ -1,0 +1,36 @@
+.inputBox {
+  width: 100%;
+}
+
+.hiddenBox {
+  width: 100%;
+  > div {
+    > div {
+      > div:first-child {
+        display: none !important;
+      }
+    }
+  }
+
+  .ant-form-item-control-input {
+    display: none !important;
+  }
+}
+
+.textEditorMain {
+  margin-bottom: 40px;
+  height: 200px !important;
+}
+
+.searchInput {
+  > span {
+    > span {
+      > span {
+        border-radius: 4px !important;
+        &:nth-child(2) {
+          display: none;
+        }
+      }
+    }
+  }
+}
